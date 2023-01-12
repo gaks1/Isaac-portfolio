@@ -3,16 +3,15 @@
 }
 
 .text-section {
-background-image: url('img/Headerbg.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  }
+  background-image: url('img/Headerbg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .ul1 {
   display: flex;
@@ -64,10 +63,11 @@ display: flex;
   color: #344563;
 }
 
-.nav-li1{
-flex-grow: 8;
+.nav-li1 {
+  flex-grow: 8;
 }
-.nav-li1 a{
+
+.nav-li1 a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -77,85 +77,77 @@ flex-grow: 8;
   text-decoration: none;
 }
 
-
 li {
   margin-right: 10px;
 }
 
-
-
-button{
-    border: 0;
-    background-color: #fff;
+button {
+  border: 0;
+  background-color: #fff;
 }
-.div{
-    background-color: #6070ff;
-    width:36px;
-    height: 5px ;
-    margin: 5px ;
 
+.div {
+  background-color: #6070ff;
+  width: 36px;
+  height: 5px;
+  margin: 5px;
 }
-.box{
-   
-    
-     align-self: flex-start;
-    margin: 0 150px 0 150px;
-    padding-right: 100px;
-     
 
+.box {
+  align-self: flex-start;
+  margin: 0 150px 0 150px;
+  padding-right: 100px;
 }
+
 @media only screen and (max-width: 480px) {
+  .nav-li2,
+  .nav-li3,
+  .nav-li4 {
+    display: none;
+  }
 
-    .nav-li2,
-    .nav-li3,
-    .nav-li4 {
-        display: none;
-    }
+  .nav-li5 {
+    display: inline;
+  }
 
-    .nav-li5 {
-        display: inline;
+  .ul1,
+  .nav-li1 {
+    display: flex;
+  }
 
-    }
+  .nav-li1 a {
+    margin-top: 10px;
+    font-size: 40px;
+  }
 
-    .ul1,
-    .nav-li1 {
-        display: flex;
-    }
+  .text-section {
+    background-image: url('img/header-shapes mobile.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
 
-    .nav-li1 a {
-        margin-top: 10px;
-        font-size: 40px;
+  .box {
+    align-self: flex-start;
+    margin: 0;
+    padding-right: 0;
+  }
 
-    }
+  .p1 {
+    padding-bottom: 20px;
+  }
 
-    .text-section {
-        background-image: url('img/header-shapes mobile.png');
-        background-size: 100% 100%;
-            background-repeat: no-repeat;
-            
-    }
-    .box{
-        align-self: flex-start;
-            margin: 0;
-            padding-right: 0;
-    }
-    .p1{
-        padding-bottom: 20px;
-    }
-    .p2{
-         padding-bottom: 10px;
-    }
-   .ul2, li{
-        margin-right: 15px;
-    }
+  .p2 {
+    padding-bottom: 10px;
+  }
 
-
+  .ul2,
+  li {
+    margin-right: 15px;
+  }
 }
-
-
 
 @media only screen and (min-width: 480px) {
-    .nav-li5 {
-        display: none;
-    }
+  .nav-li5 {
+    display: none;
+  }
 }
