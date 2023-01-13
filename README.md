@@ -1,40 +1,15 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  
 
-  <h3><b>Microverse README Template</b></h3>
+  <h1><b>Portfolio Page</b></h1>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
 
 # 📗 Table of Contents
 
@@ -45,19 +20,22 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
 
 # 📖 [Isaac-portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+
 
 **[Portfolio website]** is a website that shows my skills in web development. It has links to my projects, resume and social media.
 
@@ -76,11 +54,11 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 - **[Navbar]**-> a navigation bar.
 - **[header]**-> general introduction to the programmer
@@ -88,15 +66,11 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
 
@@ -111,11 +85,41 @@ Clone this repository to your desired folder:
 
 git clone git@github.com:gaks1/Isaac-portfolio.git
 
+### Install
+
+Install this project with:
+http server:
+
+npm install http-server -g
+http-server
+
+
+
+To run the project, execute the following command:
+
+http-server public
+
+
+
+### Run tests
+
+To run tests, go to:
+
+1. htmltester--> https://wave.webaim.org/
+2. csstester-->https://jigsaw.w3.org/css-validator/
+
+
+### Deployment
+
+You can deploy this project using:
+
+Upload necessary file to a server of your choice
+ 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -129,7 +133,7 @@ git clone git@github.com:gaks1/Isaac-portfolio.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -140,7 +144,7 @@ git clone git@github.com:gaks1/Isaac-portfolio.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -150,7 +154,7 @@ Feel free to check the [issues page](https://github.com/gaks1/Isaac-portfolio/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -159,7 +163,6 @@ If you like this project star my work
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -168,13 +171,6 @@ If you like this project star my work
 I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
