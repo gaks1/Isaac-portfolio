@@ -61,7 +61,10 @@
 
 
 - **[Navbar]**-> a navigation bar.
-- **[header]**-> general introduction to the programmer
+- **[header]**-> general introduction to the programmer.
+- **[Body]**-> general introduction to the projects done by programmer.
+- **[About]**-> about myself.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,7 +142,9 @@ Upload necessary file to a server of your choice
 
 
 
-- [ ] **[project page]**-> contains information about mmy project.
+- [ ] **[Footer]**-> contains information about myself and other links.
+- [ ] **[Project pages]**-> contains information about projects.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
