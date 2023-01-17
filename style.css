@@ -1471,6 +1471,108 @@
      .con-f-list li+li {
        margin-top: 18px;
      }
+
+     input,textarea {
+     
+      /* Mono/White */
+    
+      background: #FFFFFF;
+      /* Base/100 */
+    
+      border: 1px solid #CFD8DC;
+      border-radius: 8px;
+      width: 327px;
+   }
+
+   input{
+    height: 48px ;
+   }
+
+   textarea{
+    height: 170px;
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      /* or 160% */
+    
+    
+      /* Neutrals/N60 */
+    
+      color: #B3BAC5;
+   }
+   input[type="text"]{
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      /* or 118% */
+    
+      display: flex;
+      align-items: center;
+    
+      /* Neutral/N800 */
+    
+      color: #172B4D;
+
+   }
+
+   input[type="email"]{
+    font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      /* or 118% */
+    
+      display: flex;
+      align-items: center;
+    
+      /* Neutral/N800 */
+    
+      color: #172B4D;
+
+   }
+   .con-f-list>li>button{
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 12px 16px;
+    
+      
+    
+      /* Neutrals/N0 */
+    
+      background: #FFFFFF;
+      border-radius: 8px;
+
+    
+        /* Button /Normal */
+      
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        /* identical to box height, or 141% */
+      
+       
+        text-align: center;
+        letter-spacing: 0.03em;
+      
+        /* Primary/B400 */
+      
+        color: #6070FF;
+      
+      
+        /* Inside auto layout */
+      
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+   }
 }
 
 @media only screen and (min-width: 375px) {
