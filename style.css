@@ -1453,6 +1453,24 @@
     
       color: #EBEBFF;
   }
+
+     .contact-form {
+       width: 327px;
+     }
+  
+     .con-f-list {
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex-wrap: nowrap;
+       padding: 0;
+  
+     }
+  
+     .con-f-list li+li {
+       margin-top: 18px;
+     }
 }
 
 @media only screen and (min-width: 375px) {
