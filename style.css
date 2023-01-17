@@ -1381,6 +1381,78 @@
     border: 1px solid #c1c7d0;
     color: #5e6c84;
   }
+
+  .contact{
+    background-image: url('img/contactformshapes-mobile.png');
+      background-repeat: no-repeat;
+      background-position: right;
+    position: absolute;
+      width: 375px;
+      height: 779px;
+      left: 0px;
+      top: 4634px;
+     
+    
+      /* Primary/B400 */
+    
+      background-color: #6070FF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+
+      border-top-left-radius: 90px ;
+      box-shadow: 0 0 0 40px #fff;
+      
+  }
+
+ 
+
+  .contact-header{
+    
+      width: 327px;
+      height: 56px;
+      margin: 0px;
+      margin-top: 108px;
+    
+      /* Header / 2 */
+    
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      /* or 130% */
+    
+      
+      text-align: center;
+    
+      /* Neutrals/N0 */
+    
+      color: #FFFFFF;
+  }
+
+  .contact-par{
+    
+      width: 327px;
+      height: 140px;
+      left: 24px;
+      top: 4802px;
+      margin-top: 12px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      /* or 140% */
+    
+      text-align: center;
+    
+      /* Primary/B50 */
+    
+      color: #EBEBFF;
+  }
 }
 
 @media only screen and (min-width: 375px) {
