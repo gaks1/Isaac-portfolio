@@ -29,7 +29,6 @@
     left: 0;
     width: 100%;
     z-index: 1;
-   
   }
 
   .nav-li2,
@@ -64,13 +63,13 @@
     align-items: flex-start;
     justify-content: center;
     gap: 12px;
-    top: 0px;
+    top: 0;
     position: relative;
     z-index: 0;
     margin: 0;
     border-bottom-left-radius: 90px;
-      box-shadow: 0 0 0 150px #e5e5e5;
-     background-position: bottom; 
+    box-shadow: 0 0 0 150px #e5e5e5;
+    background-position: bottom;
   }
 
   .box {
@@ -1385,233 +1384,225 @@
     color: #5e6c84;
   }
 
-  .contact{
+  .contact {
     background-image: url('img/contact form shapes-mobile.png');
-      background-repeat: no-repeat;
-      background-position: right;
+    background-repeat: no-repeat;
+    background-position: right;
     position: absolute;
-      width: 375px;
-      height: 779px;
-      left: 0px;
-      top: 4634px;
-     
-    
-      /* Primary/B400 */
-    
-      background-color: #6070FF;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: nowrap;
+    width: 375px;
+    height: 779px;
+    left: 0;
+    top: 4634px;
 
-      border-top-left-radius: 90px ;
-      box-shadow: 0 0 0 40px #fff;
-      
-  }
+    /* Primary/B400 */
 
- 
-
-  .contact-header{
-    
-      width: 327px;
-      height: 56px;
-      margin: 0px;
-      margin-top: 108px;
-    
-      /* Header / 2 */
-    
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 52px;
-      /* or 130% */
-    
-      
-      text-align: center;
-    
-      /* Neutrals/N0 */
-    
-      color: #FFFFFF;
-  }
-
-  .contact-par{
-    
-      width: 327px;
-      height: 140px;
-      left: 24px;
-      top: 4802px;
-      margin-top: 12px;
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      /* or 140% */
-    
-      text-align: center;
-    
-      /* Primary/B50 */
-    
-      color: #EBEBFF;
-  }
-
-     .contact-form {
-       width: 327px;
-     }
-  
-     .con-f-list {
-       list-style: none;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       flex-wrap: nowrap;
-       padding: 0;
-  
-     }
-  
-     .con-f-list li+li {
-       margin-top: 18px;
-     }
-
-     .name,.email,.feedback{
-     
-      /* Mono/White */
-    
-      background: #FFFFFF;
-      /* Base/100 */
-    
-      border: 1px solid #CFD8DC;
-      border-radius: 8px;
-      width: 327px;
-   }
-
-  
-
-   input{
-    height: 48px ;
-   }
-
-   .feedback{
-    height: 170px;
-    font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 24px;
-      /* or 160% */
-    
-    
-      /* Neutrals/N60 */
-    
-      color: #B3BAC5;
-   }
-   .name{
-    font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 20px;
-      /* or 118% */
-    
-      display: flex;
-      align-items: center;
-    
-      /* Neutral/N800 */
-    
-      color: #172B4D;
-
-   }
-
-   .email{
-    font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 20px;
-      /* or 118% */
-    
-      display: flex;
-      align-items: center;
-    
-      /* Neutral/N800 */
-    
-      color: #172B4D;
-
-   }
-   .con-f-list>li>button{
+    background-color: #6070ff;
     display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 12px 16px;
-    
-      
-    
-      /* Neutrals/N0 */
-    
-      background: #FFFFFF;
-      border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-top-left-radius: 90px;
+    box-shadow: 0 0 0 40px #fff;
+  }
 
-    
-        /* Button /Normal */
-      
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 17px;
-        line-height: 24px;
-        /* identical to box height, or 141% */
-      
-       
-        text-align: center;
-        letter-spacing: 0.03em;
-      
-        /* Primary/B400 */
-      
-        color: #6070FF;
-      
-      
-        /* Inside auto layout */
-      
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-   }
+  .contact-header {
+    width: 327px;
+    height: 56px;
+    margin: 0;
+    margin-top: 108px;
 
-        input::placeholder {
-          padding-left: 10px;
-        }
-    
-        textarea::placeholder {
-          padding-left: 10px;
-          padding-top: 10px;
-        }
-    
-        input:focus {
-          padding-left: 10px;
-        }
-    
-        textarea:focus {
-          padding-left: 10px;
-          padding-top: 10px;
-        }
-    
-        .form-button:hover {
-          background: #6070ff;
-          box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-          color: #fff;
-        }
-    
-        .form-button:active {
-          background: #2230d2;
-          color: #fff;
-        }
-    
-        .form-button:disabled {
-          border: 1px solid #c1c7d0;
-          color: #5e6c84;
-        }
+    /* Header / 2 */
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    text-align: center;
+
+    /* Neutrals/N0 */
+
+    color: #fff;
+  }
+
+  .contact-par {
+    width: 327px;
+    height: 140px;
+    left: 24px;
+    top: 4802px;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    /* or 140% */
+
+    text-align: center;
+
+    /* Primary/B50 */
+
+    color: #ebebff;
+  }
+
+  .contact-form {
+    width: 327px;
+  }
+
+  .con-f-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+  .con-f-list li + li {
+    margin-top: 18px;
+  }
+
+  .name,
+  .email,
+  .feedback {
+    /* Mono/White */
+
+    background: #fff;
+
+    /* Base/100 */
+
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    width: 327px;
+  }
+
+  input {
+    height: 48px;
+  }
+
+  .feedback {
+    height: 170px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    /* or 160% */
+
+    /* Neutrals/N60 */
+
+    color: #b3bac5;
+  }
+
+  .name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    /* or 118% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutral/N800 */
+
+    color: #172b4d;
+  }
+
+  .email {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    /* or 118% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutral/N800 */
+
+    color: #172b4d;
+  }
+
+  .con-f-list > li > button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+
+    /* Neutrals/N0 */
+
+    background: #fff;
+    border-radius: 8px;
+
+    /* Button /Normal */
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* identical to box height, or 141% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    /* Primary/B400 */
+
+    color: #6070ff;
+    border-color: #fff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  input::placeholder {
+    padding-left: 10px;
+  }
+
+  textarea::placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  input:focus {
+    padding-left: 10px;
+  }
+
+  textarea:focus {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .form-button:hover {
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+
+  .form-button:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .form-button:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84;
+  }
 }
 
 @media only screen and (min-width: 375px) {
