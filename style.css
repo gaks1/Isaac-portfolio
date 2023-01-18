@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-@media only screen and (max-width: 375px) {
+
   .ul {
     list-style: none;
     padding-left: 30px;
@@ -823,7 +823,6 @@
     position: absolute;
     width: 375px;
     height: 1125.15px;
-    left: calc(50% - 375px / 2);
     top: 3506px;
     border-top-right-radius: 90px !important;
     box-shadow: 0 0 0 40px #e5e5e5;
@@ -1603,9 +1602,9 @@
     border: 1px solid #c1c7d0;
     color: #5e6c84;
   }
-}
 
-@media only screen and (min-width: 375px) {
+
+/* @media only screen and (min-width: 768px) {
   .nav-li5 {
     display: none;
   }
@@ -1707,7 +1706,7 @@
   .medium img {
     margin-top: 8px !important;
   }
-}
+} */
 
 /* .ul {
   list-style: none;
