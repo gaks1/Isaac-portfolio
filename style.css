@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-
 .ul {
   list-style: none;
   padding-left: 30px;
@@ -1602,5 +1601,3 @@ textarea:focus {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
 }
-
-
