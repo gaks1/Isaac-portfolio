@@ -1,11 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-@media only screen and (max-width: 376px) {
+
   .ul {
     list-style: none;
-    padding-left: 30px;
-    padding-right: 20px;
+    
   }
 
   .ul1 {
@@ -46,33 +45,26 @@
   }
 
   .text-section {
-    background-image: url('img/header-shapes mobile.png');
-    background-repeat: no-repeat;
-    height: 604px;
-    width: 375px;
+   
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 12px;
-    top: 0;
-    position: relative;
-    z-index: 0;
-    margin: 0;
-    border-bottom-left-radius: 90px;
-    box-shadow: 0 0 0 150px #e5e5e5;
-    background-position: bottom;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 
   .box {
+    width: 90%;
+    padding-left: 40px;
+    padding-right: 10px;
     align-self: flex-start;
-    margin: 0 30px 0 30px;
-    padding-right: 0;
+    
   }
 
   .p1 {
-    width: 327px;
-    height: 146px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -82,11 +74,12 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .h1 {
-    width: 327px;
-    height: 150px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -98,10 +91,12 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 0;
+      margin-bottom: 0;
   }
 
   .p2 {
-    height: 24px;
+   
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -111,25 +106,29 @@
     flex: none;
     order: 2;
     flex-grow: 0;
+    margin-top: 0;
+      margin-bottom: 0;
   }
 
   .ul2,
   li {
-    margin-right: 15px;
+    margin-right:4%;
   }
 
   .ul2 {
     display: flex;
     order: 3;
-    padding: 0;
+    
   }
 
-  .medium img {
-    margin-top: 4px !important;
+  .medium{
+    margin-top: 2px;;
+   
   }
 
   body {
     margin: 0;
+    
   }
 
   .nav-li1 {
@@ -143,36 +142,27 @@
     gap: 88px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    width: 375px;
-    height: 2788px;
-    left: 0;
-    top: 718px;
+    padding-top: 114px;
+    padding-bottom: 114px;
     background-color: #e5e5e5;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 
-  .con {
-    border: 2px solid  black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .con1 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+    
     gap: 12px;
-    width: 327px;
-    height: 552px;
+    
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+   
   }
 
   .con2 {
@@ -180,15 +170,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+   
     gap: 12px;
-    width: 327px;
+   
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+   
   }
 
   .con3 {
@@ -196,16 +184,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+    
     gap: 12px;
-    width: 327px;
-    height: 552px;
+    
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    
   }
 
   .con4 {
@@ -213,60 +198,71 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+   
     gap: 12px;
-    width: 327px;
+    
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+    
   }
 
   .snapshot {
-    width: 295px;
-    height: 220px;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
+  .snapshot>img{
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+
+  }
+
   .left-block1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
     gap: 12px;
-    width: 295px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .left-block2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+   
     gap: 12px;
-    width: 295px;
+    
     flex: none;
     order: 1;
     flex-grow: 0;
+    padding-left: 5%;
+      padding-right: 5%;
   }
 
   .left-block3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    ;
     gap: 12px;
-    width: 295px;
+   
     flex: none;
     order: 1;
     flex-grow: 0;
+    padding-left: 5%;
+      padding-right: 5%;
   }
 
   .left-block4 {
@@ -275,19 +271,21 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    width: 295px;
+    
     flex: none;
     order: 1;
     flex-grow: 0;
+    padding-left: 5%;
+      padding-right: 5%;
   }
 
   .l-block1-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+  
     gap: 12px;
-    width: 295px;
+    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -297,9 +295,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    
     gap: 12px;
-    width: 295px;
+   
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -309,9 +307,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    
     gap: 12px;
-    width: 295px;
+  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -321,16 +319,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    
     gap: 12px;
-    width: 295px;
+    
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .Text2 {
-    width: 295px;
+   
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
@@ -348,18 +346,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
+   
     gap: 12px;
-    width: 236px;
-    height: 32px;
+    
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .canopy {
-    width: 55px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -372,8 +368,7 @@
   }
 
   .backend {
-    width: 88px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -386,8 +381,7 @@
   }
 
   .y15 {
-    width: 29px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -403,9 +397,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0;
-    width: 55px;
-    height: 32px;
+    
+    
+   
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -425,9 +419,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0;
-    width: 88px;
-    height: 32px;
+   
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -435,7 +427,8 @@
 
   .div4-count2 {
     width: 8px;
-    height: 8px;
+      height: 8px;
+      border-radius: 8px;
     background: #c1c7d0;
     flex: none;
     order: 3;
@@ -446,19 +439,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0;
-    width: 29px;
-    height: 32px;
+   
+   
     flex: none;
     order: 4;
     flex-grow: 0;
   }
 
   .description {
-    width: 295px;
-    height: 76px;
-    margin-top: 0;
-    margin-bottom: 0;
+  
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -468,30 +458,32 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .lang {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    margin: 0;
+    
     gap: 8px;
-    width: 203px;
-    height: 24px;
+    
     flex: none;
     order: 2;
     flex-grow: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .ht-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 12px;
-    width: 29px;
-    height: 24px;
-    margin: 0;
+   justify-content: center;
+    width: 54px;
+    
     background: #ebebff;
     border-radius: 8px;
     flex: none;
@@ -503,10 +495,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 12px;
-    width: 21px;
-    height: 24px;
-    margin: 0;
+   justify-content: center;
+   width: 45px;
     background: #ebebff;
     border-radius: 8px;
     flex: none;
@@ -518,10 +508,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 12px;
-    width: 65px;
-    height: 24px;
-    margin: 0;
+    width: 89px;
+   justify-content: center;
     background: #ebebff;
     border-radius: 8px;
     flex: none;
@@ -530,8 +518,7 @@
   }
 
   .ht {
-    width: 29px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -545,8 +532,7 @@
   }
 
   .cs {
-    width: 21px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -560,8 +546,7 @@
   }
 
   .jscript {
-    width: 65px;
-    height: 16px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -575,8 +560,7 @@
   }
 
   .butt {
-    width: 295px;
-    height: 72px;
+    
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -584,14 +568,10 @@
 
   .Acbutt {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
+    
+    
     gap: 10px;
-    height: 48px;
-    left: 100px;
-    top: calc(50% - 48px / 2 + 57.5px);
+    
     background: #fff;
     border: 1px solid #7f8cff;
     border-radius: 8px;
@@ -600,11 +580,13 @@
     font-weight: 500;
     font-size: 17px;
     color: #396df2;
+    width: 124px;
+    height: 48px;
+    margin-bottom: 40px;
   }
 
   .pbutt {
-    width: 100px;
-    height: 24px;
+   
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -624,44 +606,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 0;
-    gap: 60px;
-    position: absolute;
-    width: 375px;
-    height: 1125.15px;
-    top: 3506px;
     border-top-right-radius: 90px !important;
     box-shadow: 0 0 0 40px #e5e5e5;
+    padding-top: 114px;
+    padding-bottom: 114px;
+    padding-left: 6%;
+    padding-right: 6%;
+    gap:40px;
   }
 
   .about-top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
     gap: 12px;
-    width: 327px;
-    height: 358px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    width: 100%;
   }
 
   .about-skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    width: 327px;
-    height: 464.15px;
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .about-header {
-    width: 200px !important;
+    
     margin: 0;
+    width: 150px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -676,9 +653,8 @@
   }
 
   .about-hello {
-    width: 327px;
-    height: 144px;
-    margin: 0;
+margin-top: 0px;
+margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -694,10 +670,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
     gap: 16px;
-    width: 200px;
-    height: 80px;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -707,18 +680,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     gap: 8px;
-    width: 118px;
-    height: 24px;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .about-connect1 {
-    width: 118px;
-    height: 24px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -728,18 +697,21 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .about-icon {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    width: 200px;
-    height: 40px;
+   
+    padding-left: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 0px;
+      margin-bottom: 0px;
   }
 
   .about-icon-button {
@@ -747,10 +719,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+   
     margin-right: 0;
     width: 45px;
-    height: 40px;
+      height: 40px;
+    
     border: none;
     background-color: #fff;
     flex: none;
@@ -760,30 +733,26 @@
 
   .about-get-r {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 162px;
-    height: 48px;
+    
+    
+   
+    
     border: 1px solid #6070ff;
     border-radius: 8px;
     background: #fff;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+    order:3;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     color: #396df2;
     letter-spacing: 0.01em;
+    width: 162px;
+      height: 48px;
   }
 
   .about-get-rmess {
-    width: 138px;
-    height: 24px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -803,70 +772,66 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    margin: 0;
+   
     list-style: none;
-    width: 327px;
-    height: 464.15px;
+   
     flex: none;
     order: 1;
     flex-grow: 0;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .skill-frame1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
-    margin: 0;
-    width: 327px;
-    height: 320.15px;
+   
+    width: 100%;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-right: 0;
   }
 
   .skill-frame2 {
-    width: 327px;
-    height: 72px;
+    width: 100%;
     margin: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
-    position: relative;
+    
   }
 
   .skill-frame3 {
-    width: 327px;
-    height: 72px;
-    margin: 0;
+    width: 100%;
     flex: none;
     order: 2;
     flex-grow: 0;
-    position: relative;
+    margin-right: 0;
+    
   }
 
   .skill-f-lang {
-    width: 327px;
-    height: 72px;
+    width: 100%;
     flex: none;
     order: 0;
     flex-grow: 0;
-    position: relative;
+    
   }
 
   .skill-f-langlist {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 12px;
     gap: 12px;
-    width: 303px;
-    height: 248.15px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    width: 100%;
   }
+  
 
   .f-lang-sep {
     position: absolute;
@@ -877,30 +842,27 @@
   }
 
   .f-lang-butt {
+    width: 40px;
+      height: 40px;
     display: flex;
     flex-direction: row;
-    padding: 8px;
+   
     align-items: center;
     justify-content: center;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 26px;
-    top: calc(50% - 24px / 2);
+    
     background-color: #fff;
     border: none;
+    float: right;
+    margin-top: 10px;
   }
 
   .f-lang-butt-img {
-    padding-top: 25px;
+    
   }
 
   .f-lang-text {
-    position: absolute;
-    height: 24px;
-    left: 12px;
-    right: 78px;
-    top: calc(50% - 24px / 2);
+    
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -912,8 +874,7 @@
   }
 
   .langlist1 {
-    width: 303px;
-    height: 66.72px;
+    
 
     /* Neutrals/N10 */
 
@@ -928,8 +889,7 @@
   }
 
   .langlist2 {
-    width: 303px;
-    height: 66.72px;
+    
 
     /* Neutrals/N10 */
 
@@ -944,8 +904,7 @@
   }
 
   .langlist3 {
-    width: 303px;
-    height: 66.72px;
+    
 
     /* Neutrals/N10 */
 
@@ -960,30 +919,19 @@
   }
 
   .langltext1 {
-    /* Body / 3 - Bolder */
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-
-    /* or 133% */
-
     display: flex;
     align-items: center;
-
-    /* Neutrals/N700 */
-
     color: #253858;
+    margin-left: 20px;
   }
 
   .frame2-sep {
-    position: absolute;
-    height: 1px;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    
 
     /* Neutrals/N40 */
 
@@ -991,79 +939,48 @@
   }
 
   .frame2-button {
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 8px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 26px;
-    top: calc(50% - 40px / 2);
     border: none;
     background-color: #fff;
+    float: right;
+    margin-top: 20px;
   }
 
   .frame2-text {
-    position: absolute;
-    height: 24px;
-    left: 12px;
-    right: 78px;
-
-    /* top: calc(50% - 24px/2); */
-
-    /* Body / 1 - Bolder */
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
-    /* identical to box height, or 120% */
-
     display: flex;
     align-items: center;
     color: #000;
   }
 
   .frame3-sep {
-    position: absolute;
-    height: 1px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    /* Neutrals/N40 */
-
+    
     background: #dfe1e6;
   }
 
   .frame3-button {
+    width: 40px;
+      height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 8px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 26px;
-    top: calc(50% - 40px / 2);
     border: none;
     background-color: #fff;
+    float: right;
+    margin-top: 20px;
   }
 
   .frame3-text {
-    position: absolute;
-    height: 24px;
-    left: 12px;
-    right: 78px;
-
-    /* top: calc(50% - 24px/2); */
-
-    /* Body / 1 - Bolder */
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1084,8 +1001,7 @@
   }
 
   .langlist img {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-left:10px ;
   }
 
   .Acbutt:hover {
@@ -1121,17 +1037,8 @@
   }
 
   .contact {
-    background-image: url('img/contact form shapes-mobile.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    position: absolute;
-    width: 375px;
-    height: 779px;
-    left: 0;
-    top: 4634px;
-
-    /* Primary/B400 */
-
+padding-left: 6%;
+padding-right: 6%;
     background-color: #6070ff;
     display: flex;
     flex-direction: column;
@@ -1143,10 +1050,6 @@
   }
 
   .contact-header {
-    width: 327px;
-    height: 56px;
-    margin: 0;
-    margin-top: 108px;
 
     /* Header / 2 */
 
@@ -1166,11 +1069,7 @@
   }
 
   .contact-par {
-    width: 327px;
-    height: 140px;
-    left: 24px;
-    top: 4802px;
-    margin-top: 12px;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1187,53 +1086,53 @@
   }
 
   .contact-form {
-    width: 327px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
   }
 
   .con-f-list {
+    
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 0;
   }
-
+  
+  .con-f-list li{
+    width: 100%;
+  }
   .con-f-list li + li {
-    margin-top: 18px;
+    margin-top: 20px;
+   
   }
 
   .name,
   .email,
   .feedback {
-    /* Mono/White */
-
+     width:327px;
     background: #fff;
-
-    /* Base/100 */
-
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    width: 327px;
+    
   }
 
   input {
-    height: 48px;
+    
   }
 
   .feedback {
-    height: 170px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* or 160% */
-
-    /* Neutrals/N60 */
-
     color: #b3bac5;
+    height: 170px;
   }
 
   .name {
@@ -1242,15 +1141,10 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-
-    /* or 118% */
-
     display: flex;
     align-items: center;
-
-    /* Neutral/N800 */
-
     color: #172b4d;
+    height: 48px;
   }
 
   .email {
@@ -1259,15 +1153,10 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-
-    /* or 118% */
-
     display: flex;
     align-items: center;
-
-    /* Neutral/N800 */
-
     color: #172b4d;
+    height: 48px;
   }
 
   .con-f-list > li > button {
@@ -1275,32 +1164,17 @@
     flex-direction: row;
     align-items: center;
     padding: 12px 16px;
-
-    /* Neutrals/N0 */
-
     background: #fff;
     border-radius: 8px;
-
-    /* Button /Normal */
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* identical to box height, or 141% */
-
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: #6070ff;
     border-color: #fff;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1339,4 +1213,4 @@
     border: 1px solid #c1c7d0;
     color: #5e6c84;
   }
-}
+
