@@ -101,7 +101,7 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 60px;
     display: flex;
     align-items: center;
@@ -110,7 +110,6 @@
     order: 1;
     flex-grow: 0;
     letter-spacing: 0.37px;
-    width: 500px;
   }
 
   .p2 {
