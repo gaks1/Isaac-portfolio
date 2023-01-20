@@ -64,6 +64,8 @@
 - **[header]**-> general introduction to the programmer.
 - **[Body]**-> general introduction to the projects done by programmer.
 - **[About]**-> about myself.
+- **[Contacts]**-> A form to contact me.
+
 
 
 
@@ -142,8 +144,7 @@ Upload necessary file to a server of your choice
 
 
 
-- [ ] **[Footer]**-> contains information about myself and other links.
-- [ ] **[Project pages]**-> contains information about projects.
+- [ ] **[Desktop-version]**-> Desktop version of the app.
 
 
 
