@@ -65,6 +65,8 @@
 - **[Body]**-> general introduction to the projects done by programmer.
 - **[About]**-> about myself.
 - **[Contacts]**-> A form to contact me.
+- **[Desktopversion]**-> Made a desktop version of the website.
+
 
 
 
@@ -144,7 +146,8 @@ Upload necessary file to a server of your choice
 
 
 
-- [ ] **[Desktop-version]**-> Desktop version of the app.
+- [ ] **[Projects]**-> Links to various projects in detail.
+
 
 
 
