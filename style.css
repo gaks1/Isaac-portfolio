@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
 @media screen and (min-width: 769px) {
   .ul {
     list-style: none;
@@ -12,9 +10,7 @@
   .ul1 {
     display: flex;
     justify-content: flex-end;
-
   }
-
 
   .nav {
     position: fixed;
@@ -37,7 +33,7 @@
   .nav-li2,
   .nav-li3,
   .nav-li4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -81,7 +77,6 @@
     padding-right: 10%;
   }
 
-
   .box {
     align-self: flex-start;
     margin-top: 0;
@@ -116,7 +111,6 @@
     flex-grow: 0;
     letter-spacing: 0.37px;
     width: 350px;
-
   }
 
   .p2 {
@@ -130,7 +124,6 @@
     flex: none;
     order: 2;
     flex-grow: 0;
-
   }
 
   .ul2,
@@ -151,7 +144,6 @@
   body {
     margin: 0;
   }
-
 
   .works {
     display: grid;
@@ -180,9 +172,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
     gap: 12px;
-
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -196,9 +186,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-
     gap: 12px;
-
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -212,7 +200,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
     gap: 12px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -227,9 +214,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-
     gap: 12px;
-
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -247,7 +232,7 @@
     flex-grow: 0;
   }
 
-  .snapshot>img {
+  .snapshot > img {
     width: 100%;
     height: 100%;
   }
@@ -314,7 +299,6 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -326,7 +310,6 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -338,7 +321,6 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -350,14 +332,12 @@
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .Text2 {
-
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
@@ -400,7 +380,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -412,7 +392,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -609,7 +589,6 @@
   }
 
   .pbutt {
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -653,7 +632,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -669,14 +647,13 @@
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .about-hello {
-
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -705,14 +682,12 @@
     align-items: center;
     padding: 0;
     gap: 8px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .about-connect1 {
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -743,7 +718,6 @@
     justify-content: center;
     padding-bottom: 20px;
     margin-right: 0;
-
     border: none;
     background-color: #fff;
     flex: none;
@@ -758,7 +732,6 @@
     align-items: center;
     padding: 12px;
     gap: 10px;
-
     border: 1px solid #6070ff;
     border-radius: 8px;
     background: #fff;
@@ -775,7 +748,6 @@
   }
 
   .about-get-rmess {
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -821,7 +793,6 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-
   }
 
   .skill-frame3 {
@@ -830,7 +801,6 @@
     flex: none;
     order: 2;
     flex-grow: 0;
-
   }
 
   .skill-f-lang {
@@ -839,7 +809,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-
   }
 
   .skill-f-langlist {
@@ -847,7 +816,6 @@
     align-items: center;
     padding: 12px;
     gap: 12px;
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -873,10 +841,7 @@
     border: none;
   }
 
-  .f-lang-butt-img {}
-
   .f-lang-text {
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -888,7 +853,6 @@
   }
 
   .langlist1 {
-
     background: #f7f7f9;
     border-radius: 8px;
     flex: none;
@@ -897,25 +861,16 @@
   }
 
   .langlist2 {
-
     background: #f7f7f9;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .langlist3 {
-
-
     background: #f7f7f9;
     border-radius: 8px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -1046,8 +1001,6 @@
   }
 
   .contact-header {
-
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1064,7 +1017,6 @@
   }
 
   .contact-par {
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1075,8 +1027,6 @@
     width: 41%;
   }
 
-  .contact-form {}
-
   .con-f-list {
     list-style: none;
     display: flex;
@@ -1086,9 +1036,8 @@
     padding: 0;
   }
 
-  .con-f-list li+li {
+  .con-f-list li + li {
     margin-top: 27px;
-
   }
 
   .name,
@@ -1103,7 +1052,6 @@
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     width: 447px;
-
   }
 
   input {
@@ -1117,11 +1065,6 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* or 160% */
-
-    /* Neutrals/N60 */
-
     color: #b3bac5;
   }
 
@@ -1159,7 +1102,7 @@
     color: #172b4d;
   }
 
-  .con-f-list>li>button {
+  .con-f-list > li > button {
     display: flex;
     flex-direction: row;
     align-items: center;
