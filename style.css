@@ -1370,7 +1370,7 @@
     flex-grow: 0;
   }
 
-  .snapshot>img {
+  .snapshot > img {
     width: 90%;
     height: 100%;
     padding-left: 5%;
@@ -2184,7 +2184,7 @@
     width: 100%;
   }
 
-  .con-f-list li+li {
+  .con-f-list li + li {
     margin-top: 20px;
   }
 
@@ -2231,7 +2231,7 @@
     height: 48px;
   }
 
-  .con-f-list>li>button {
+  .con-f-list > li > button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3484,7 +3484,7 @@
     padding: 0;
   }
 
-  .con-f-list li+li {
+  .con-f-list li + li {
     margin-top: 18px;
   }
 
@@ -3555,7 +3555,7 @@
     color: #172b4d;
   }
 
-  .con-f-list>li>button {
+  .con-f-list > li > button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3625,4 +3625,3 @@
     color: #5e6c84;
   }
 }
-
