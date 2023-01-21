@@ -43,6 +43,7 @@
   }
 
   .nav-li1 a {
+    display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -50,8 +51,20 @@
     line-height: 20px;
     color: #6070ff;
     text-decoration: none;
+    animation-duration: 3s;
+      animation-iteration-count: 1;
+      animation-name: logoon;
   }
 
+  @keyframes logoon {
+
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
   .div {
     width: 25px;
     height: 2.5px;
