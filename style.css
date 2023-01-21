@@ -1053,6 +1053,16 @@
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     width: 447px;
+    transition:all 2s
+  }
+  .name:hover {
+    transform:translate(20px);
+  }
+  .email:hover {
+    transform:translate(20px);
+  }
+  .feedback:hover {
+    transform:translate(20px);
   }
 
   input {
