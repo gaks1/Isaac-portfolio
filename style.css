@@ -52,19 +52,20 @@
     color: #6070ff;
     text-decoration: none;
     animation-duration: 3s;
-      animation-iteration-count: 1;
-      animation-name: logoon;
+    animation-iteration-count: 1;
+    animation-name: logoon;
   }
 
   @keyframes logoon {
-
-    from{
+    from {
       transform: rotate(0deg);
     }
-    to{
+
+    to {
       transform: rotate(360deg);
     }
   }
+
   .div {
     width: 25px;
     height: 2.5px;
@@ -250,7 +251,12 @@
     transition: all 2s;
   }
 
-  .snapshot>img:hover{
+  .langlist img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .snapshot > img:hover {
     transform: scale(1.2);
   }
 
@@ -962,11 +968,6 @@
     height: 120px;
   }
 
-  .langlist img {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
   .Acbutt:hover {
     background: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -1066,20 +1067,7 @@
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     width: 447px;
-    transition:all 2s
-  }
-  .name:hover {
-    transform:translate(20px);
-  }
-  .email:hover {
-    transform:translate(20px);
-  }
-  .feedback:hover {
-    transform:translate(20px);
-  }
-
-  input {
-    height: 48px;
+    transition: all 2s;
   }
 
   .feedback {
@@ -1124,6 +1112,22 @@
     /* Neutral/N800 */
 
     color: #172b4d;
+  }
+
+  .name:hover {
+    transform: translate(20px);
+  }
+
+  .email:hover {
+    transform: translate(20px);
+  }
+
+  .feedback:hover {
+    transform: translate(20px);
+  }
+
+  input {
+    height: 48px;
   }
 
   .con-f-list > li > button {
