@@ -120,7 +120,9 @@ To run tests, go to:
 
 You can deploy this project using:
 
-Upload necessary file to a server of your choice
+github pages.
+
+Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
  
 
 
