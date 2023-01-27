@@ -37,8 +37,8 @@
 
 
 
-**[Portfolio website]** is a website that shows my skills in web development. It has links to my projects, resume and social media.
-
+**[Portfolio website]** is a website that shows my skills in web development. It has links to my projects, resume and social media.<br>
+A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) description of my project.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
