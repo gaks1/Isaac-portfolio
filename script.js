@@ -11,7 +11,7 @@ ham.addEventListener('click',()=>{
    }
    
    menuContainer.style.display = 'block';
-   alert('works');
+   
 });
 
 closeMenu.addEventListener('click', ()=>{
