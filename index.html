@@ -9,13 +9,13 @@
 </head>
 <body>
 
-        <section class="nav">
+        <nav class="nav">
             <ul class="ul ul1">
                 <li class="navli nav-li1"><a href="index.html">My logo</a></li>
                 <li class="navli nav-li2">Portfolio</li>
                 <li class="navli nav-li3">About</li>
                 <li class="navli nav-li4">Contact</li>
-                <li class="navli nav-li5">
+                <li class="navli nav-li5 hamburger">
                     <div class="hamburger">
                        <div class="div"></div>
                        <div class="div"></div>
@@ -23,7 +23,15 @@
                     </div>
                  </li>
             </ul>
-        </section>
+            <div class="menu-container">
+                <div class="menu-hamburger close"><a href=""><img src="img/Icon - Cancel.png" alt=""></a></div>
+                <ul class="menu-list">
+                    <li><a href="#portfolio" class="mobile-link-item">Portfolio</a></li>
+                    <li><a href="#about" class="mobile-link-item">About</a></li>
+                    <li><a href="#contact" class="mobile-link-item">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     
 
         <section class="text-section"><!--container with background image-->
@@ -78,7 +86,7 @@
                         
         </section>
 
-        <section class="works">
+        <section id="portfolio" class="works">
             <div class="con con1">
                 <div class=" snapshot"><img src="img\beigebg.png" alt="Project1"></div>
                 <div class=" left-block1">
@@ -202,7 +210,7 @@
         </section>
 
 
-        <section class="about">
+        <section id="about" class="about">
             <div class="about-top">
                 <h2 class="about-header">About Myself</h2>
                 <p class="about-hello">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and
@@ -284,7 +292,7 @@
           
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <h2 class="contact-header">Contact me</h2>
             <p class="contact-par">If you have an application you are interested in developing, a feature that you need built or
                 a project that needs
@@ -300,6 +308,6 @@
             </form>
         
         </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
