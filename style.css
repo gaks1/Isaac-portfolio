@@ -235,6 +235,9 @@ body {
     flex-grow: 0;
   }
 
+  .con-1{
+    flex-direction: row-reverse;
+  }
   .con3 {
     box-sizing: border-box;
     display: flex;
@@ -1609,11 +1612,17 @@ body {
     align-items: center;
     justify-content: center;
     width: 54px;
+    height: 40px;
     background: #ebebff;
     border-radius: 8px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
   .cs-1 {
@@ -1622,11 +1631,17 @@ body {
     align-items: center;
     justify-content: center;
     width: 45px;
+    height: 40px;
     background: #ebebff;
     border-radius: 8px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
   .js-1 {
@@ -1634,6 +1649,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 89px;
+    height: 40px;
     justify-content: center;
     background: #ebebff;
     border-radius: 8px;

@@ -8,7 +8,40 @@ const project = [
     livelink: "#",
     sourcelink: "#",
     buttontext: "See Project"
-}
+},
+{
+    name: "Multi-Post Stories",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    imagesource: "img/whitebg.png",
+    altmessage: "project2",
+    technologies: ['html', 'css', 'javascript'],
+    projectsummary: ['CANOPY', 'Back end dev', '2015'],
+    livelink: "#",
+    sourcelink: "#",
+    buttontext: "See Project"
+},
+    {
+        name: "Tonic",
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+        imagesource: "img/orabg.png",
+        altmessage: "project3",
+        technologies: ['html', 'css', 'javascript'],
+        projectsummary: ['CANOPY', 'Back end dev', '2015'],
+        livelink: "#",
+        sourcelink: "#",
+        buttontext: "See Project"
+    },
+    {
+        name: "Multi-Post Stories",
+        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+        imagesource: "img/multibg.png",
+        altmessage: "project4",
+        technologies: ['html', 'css', 'javascript'],
+        projectsummary: ['CANOPY', 'Back end dev', '2015'],
+        livelink: "#",
+        sourcelink: "#",
+        buttontext: "See Project"
+    }
 ]
 const portfolio = document.querySelector('.works');
 
@@ -37,7 +70,10 @@ function fetchPortfolio(){
         image.alt=project[i].altmessage;
 
 
-        div.className = 'con con1';
+        div.className = 'con con1 con-1';
+        if(i%2===0){
+            div.classList.toggle('con-1');
+        }
         divSnapshot.className = "snapshot";
         divLeftblock.className = "left-block1"
         portfolio.appendChild(div);
