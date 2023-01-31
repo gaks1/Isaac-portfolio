@@ -23,7 +23,8 @@ function fetchPortfolio(){
         let divLeftBLockTextyear = document.createElement('div');
         let divLeftBLockCanopy = document.createElement('div');
         let LeftBLockCanopy= document.createElement('p');
-        let divLeftBLockSeparator = document.createElement('div');
+        let divLeftBLockSeparator1 = document.createElement('div');
+        let divLeftBLockSeparator2 = document.createElement('div');
         let divLeftBLockBackend = document.createElement('div');
         let LeftBLockBackend = document.createElement('p');
         let divLeftBLockY15 = document.createElement('div');
@@ -38,9 +39,58 @@ function fetchPortfolio(){
 
         div.className = 'con con1';
         divSnapshot.className = "snapshot";
+        divLeftblock.className = "left-block1"
         portfolio.appendChild(div);
         divSnapshot.appendChild(image);
         div.appendChild(divSnapshot);
+        div.appendChild(divLeftblock);
+          
+
+        divLeftBLockText.className = "l-block1-text";
+        divLeftblock.appendChild(divLeftBLockText);
+
+        divLeftBLockTextHead.textContent = project[i].name;
+        divLeftBLockTextHead.className = "Text2";
+        divLeftBLockText.appendChild(divLeftBLockTextHead);
+        
+        divLeftBLockTextyear.className = "year";
+        divLeftBLockText.appendChild(divLeftBLockTextyear);
+
+
+
+        divLeftBLockCanopy.className = "div1-can";
+        divLeftBLockTextyear.appendChild(divLeftBLockCanopy);
+
+        LeftBLockCanopy.textContent = project[i].projectsummary[0];
+        LeftBLockCanopy.className = "canopy";
+        divLeftBLockCanopy.appendChild(LeftBLockCanopy);
+
+        divLeftBLockSeparator1.className = "portfolio-separtor portfolio-separtor-1"
+        divLeftBLockTextyear.appendChild(divLeftBLockSeparator1);
+
+        divLeftBLockBackend.className = "div3-back";
+        divLeftBLockTextyear.appendChild(divLeftBLockBackend);
+
+        LeftBLockBackend.textContent = project[i].projectsummary[1];
+        LeftBLockBackend.className = "backend";
+        divLeftBLockBackend.appendChild(LeftBLockBackend);
+
+        divLeftBLockSeparator2.className = "portfolio-separtor portfolio-separtor-3"
+        divLeftBLockTextyear.appendChild(divLeftBLockSeparator2);
+
+        divLeftBLockY15.className = "div5-y15";
+        divLeftBLockTextyear.appendChild(divLeftBLockY15);
+
+        LeftBLockY15.textContent = project[i].projectsummary[2];
+        LeftBLockY15.className = "y15";
+        divLeftBLockY15.appendChild(LeftBLockY15);
+
+
+
+        divLeftBLockDescription.textContent = project[i].description;
+        divLeftBLockDescription.className = "description";
+        divLeftblock.appendChild(divLeftBLockDescription);
+
 
         for (let x = 0; x < project[i].technologies.length; x += 1) {
             let divLeftBLockLanguageListitem = document.createElement('li');
@@ -63,14 +113,16 @@ function fetchPortfolio(){
             divLeftBLockLanguageList.appendChild(divLeftBLockLanguageListitem);
 
         }
-        divLeftBLockLanguageList.className = "Lang";
-        div.appendChild(divLeftBLockLanguageList);
+        divLeftBLockLanguageList.className = "lang";
+        divLeftblock.appendChild(divLeftBLockLanguageList);
+        div.appendChild(divLeftblock);
 
         LeftBLockButton.textContent = project[i].buttontext;
         LeftBLockButton.className = "Acbutt";
         divLeftBLockButton.appendChild(LeftBLockButton);
         divLeftBLockButton.className = "butt";
-        div.appendChild(divLeftBLockButton);
+        divLeftblock.appendChild(divLeftBLockButton);
+
         
         
         
