@@ -527,6 +527,11 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
   .cs-1 {
@@ -542,6 +547,11 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
   .js-1 {
@@ -557,46 +567,16 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
-  .ht {
-    
-    
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: var(--navy);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+  
 
-  .cs {
-    
-    
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: var(--navy);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
 
-  .jscript {
-    
-    
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: var(--navy);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
 
   .butt {
     flex: none;
@@ -1660,6 +1640,11 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
+    font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: var(--navy);
   }
 
   .ht {
