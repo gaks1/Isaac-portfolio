@@ -198,6 +198,66 @@ body {
     background-color: var(--body-background-colour);
   }
 
+  .portfolio-popup{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+  }
+
+    .blur {
+      filter: blur(4.5px);
+    }
+
+    .projectbutton{
+      display: inline-block;
+  width: 142px;
+  height: 40px;
+  border: 1px solid var(--navy);
+    border-radius: 8px;
+    color: #396DF2;
+    font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    .popup-div{
+      width: 80%;
+      background: #FFFFFF;
+      border: 1px solid #EBECF0;
+      box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+      border-radius: 16px;
+    }
+
+    .popup-image{
+      width: 100%;
+    }
+
+    .div-bottom{
+      display: flex;
+    }
+    .frame-title{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .frame-canopy{
+display: flex;
+    }
+    .frame-language{
+      display: flex;
+      flex-direction: column;
+    }
+.popup-description{
+  width: 60%;
+}
+.bottom-list{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
   .con {
     border: 2px solid black;
     display: flex;
