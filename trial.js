@@ -64,6 +64,7 @@ const project = [
 
     }
 ]
+const header = document.querySelector('.text-section');
 const portfolio = document.querySelector('.works');
 const portfoliopopup = document.querySelector('.portfolio-popup');
 const section = document.querySelectorAll("section");
@@ -175,10 +176,13 @@ function fetchPortfolio(){
        
         portfolio.style.display = 'none';
         portfoliopopup.style.display = 'flex';
+            header.classList.add('blur');
         let popupdiv = document.createElement('div');
-        popupdiv.className = "popup-div"
+        popupdiv.className = "popup-div";
         let divtitle = document.createElement('div');
+            divtitle.className = "div-title";
         let divtop = document.createElement('div');
+            divtop.className ="div-top";
         let divbottom = document.createElement('div');
         divbottom.className = "div-bottom";
         let popupimage = new Image();
@@ -204,7 +208,7 @@ function fetchPortfolio(){
             divtitle.appendChild(frametitle);
 
             divtitlecancel.src = project[i].cancel;
-            divtitlecancel.className = "portfolio1-cancel";
+            divtitlecancel.className = "portfolio1cancel";
             frametitle.appendChild(divtitlecancel);
             divtitle.appendChild(frametitle);
 
@@ -216,6 +220,7 @@ function fetchPortfolio(){
             divtitle.appendChild(framecanopy);
 
             divtitlecounter1.src = project[i].counter;
+            divtitlecounter1.className = "canopyimage";
             framecanopy.appendChild(divtitlecounter1);
             divtitle.appendChild(framecanopy);
 
@@ -227,6 +232,7 @@ function fetchPortfolio(){
             divtitle.appendChild(framecanopy);
 
             divtitlecounter2.src = project[i].counter;
+            divtitlecounter2.className = "canopyimage";
             framecanopy.appendChild(divtitlecounter2);
             divtitle.appendChild(framecanopy);
 
@@ -277,12 +283,19 @@ function fetchPortfolio(){
             frameLanguage.appendChild(divbottomlanguage); 
             divbottom.appendChild(frameLanguage);
 
+            let divbutton = document.createElement('div');
+            divbutton.className = "div-button";
+
             let divbottombutton1 = document.createElement('a');
             divbottombutton1.type= "button";
             divbottombutton1.className = "projectbutton";
             divbottombutton1.href = project[i].livelink[0];
             divbottombutton1.textContent = project[i].livelink[1];
-            frameLanguage.appendChild(divbottombutton1);
+            let image1 = new Image();
+            image1.src = project[i].livelink[2];
+            divbottombutton1.appendChild(image1);
+            divbutton.appendChild(divbottombutton1);
+            frameLanguage.appendChild(divbutton);
             divbottom.appendChild(frameLanguage);
 
             let divbottombutton2 = document.createElement('a');
@@ -290,12 +303,16 @@ function fetchPortfolio(){
             divbottombutton2.className = "projectbutton";
             divbottombutton2.href = project[i].sourcelink[0];
             divbottombutton2.textContent = project[i].sourcelink[1];
-            frameLanguage.appendChild(divbottombutton2);
+            let image2 = new Image();
+            image2.src = project[i].sourcelink[2];
+            divbottombutton2.appendChild(image2);
+            divbutton.appendChild(divbottombutton2);
+            frameLanguage.appendChild(divbutton);
             divbottom.appendChild(frameLanguage);
 
 
     
-            let c = document.querySelector('.portfolio1-cancel');
+            let c = document.querySelector('.portfolio1cancel');
             c.addEventListener('click', () => {
                 portfoliopopup.style.display = 'none';
                 portfolio.style.display = 'grid';
