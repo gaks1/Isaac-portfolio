@@ -173,9 +173,9 @@ function fetchPortfolio(){
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function () {
        
-        // portfolio.style.display = 'none';
+        portfolio.style.display = 'none';
         portfoliopopup.style.display = 'flex';
-
+        buttons[i].setAttribute("disabled","");
         let popupdiv = document.createElement('div');
         popupdiv.className = "popup-div"
         let divtitle = document.createElement('div');
@@ -299,6 +299,8 @@ function fetchPortfolio(){
             let c = document.querySelector('.portfolio1-cancel');
             c.addEventListener('click', () => {
                 portfoliopopup.style.display = 'none';
+                portfolio.style.display = 'grid';
+
                 popupdiv.remove();
             });
 
