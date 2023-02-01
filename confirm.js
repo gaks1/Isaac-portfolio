@@ -165,7 +165,6 @@ function fetchPortfolio() {
 
         addTextAppend(LeftBLockButton, project[i].buttontext, divLeftBLockButton);
         divLeftblock.appendChild(divLeftBLockButton);
-<<<<<<< HEAD
 
     }//end of for loop
 
@@ -338,8 +337,5 @@ function fetchPortfolio() {
 
 
     // });
-=======
-    }
->>>>>>> 4200287eb145493cfcce8bba7ac7c8adec7895e5
 }
 
