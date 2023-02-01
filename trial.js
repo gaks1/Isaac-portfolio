@@ -175,7 +175,6 @@ function fetchPortfolio(){
        
         portfolio.style.display = 'none';
         portfoliopopup.style.display = 'flex';
-        buttons[i].setAttribute("disabled","");
         let popupdiv = document.createElement('div');
         popupdiv.className = "popup-div"
         let divtitle = document.createElement('div');
@@ -300,7 +299,6 @@ function fetchPortfolio(){
             c.addEventListener('click', () => {
                 portfoliopopup.style.display = 'none';
                 portfolio.style.display = 'grid';
-
                 popupdiv.remove();
             });
 
