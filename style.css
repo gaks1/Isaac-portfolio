@@ -202,7 +202,7 @@ body {
     display: none;
     position: absolute;
     justify-content: center;
-    top: 0;
+    top: 40px;
     width: 100%;
   }
 
@@ -228,7 +228,7 @@ display: flex;
       font-size: 15px;
       line-height: 20px;
       text-decoration: none;
-    gap: 15px;
+          justify-content: space-between;
     }
 
     .popup-div{
@@ -1435,7 +1435,7 @@ display: flex;
    display: none;
    position: absolute;
    justify-content: center;
-   top: 0;
+  top: 40px;
    width: 100%;
  }
 
@@ -1462,7 +1462,7 @@ display: flex;
    font-size: 15px;
    line-height: 20px;
    text-decoration: none;
-    gap: 15px;
+        justify-content: space-between;
  }
 
  .popup-div {
@@ -2706,7 +2706,7 @@ display: flex;
       display: none;
       position: absolute;
       justify-content: center;
-      top: 0;
+          top: 40px;
       width: 375px;
       margin-left: 20px;
     }
@@ -2734,7 +2734,7 @@ display: flex;
       font-size: 15px;
       line-height: 20px;
       text-decoration: none;
-      gap: 15px;
+      justify-content: space-between;
     }
   
     .popup-div {
