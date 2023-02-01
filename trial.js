@@ -174,17 +174,17 @@ let buttons = document.querySelectorAll('.Acbutt');
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() {
-
+        header.classList.add('blur');
         portfolio.style.display = 'none';
         portfoliopopup.style.display = 'flex';
         let popupdiv = generateHtml('div', 'popup-div');
 
         let divtitle = document.createElement('div');
             divtitle.className = "div-title";
-        let divtop = document.createElement('div');
+        let divtop = generateHtml('div','div-top');
 
         let divbottom = generateHtml('div', 'div-bottom');
-
+        let divbutton = generateHtml('div','div-button');
         let popupimage = new Image();
         let divtitlename = document.createElement('h2');
         let divtitlecanopy = generateHtml('p', 'canopy');
@@ -201,7 +201,7 @@ for (let i = 0; i < buttons.length; i++) {
         divtitle.appendChild(frametitle);
 
         divtitlecancel.src = project[i].cancel;
-        divtitlecancel.className = "portfolio1-cancel";
+        divtitlecancel.className = "portfolio1cancel";
         frametitle.appendChild(divtitlecancel);
         divtitle.appendChild(frametitle);
 
@@ -212,6 +212,7 @@ for (let i = 0; i < buttons.length; i++) {
         divtitle.appendChild(framecanopy);
 
         divtitlecounter1.src = project[i].counter;
+        divtitlecounter1.className = "canopyimage";
         framecanopy.appendChild(divtitlecounter1);
         divtitle.appendChild(framecanopy);
 
@@ -220,6 +221,7 @@ for (let i = 0; i < buttons.length; i++) {
         divtitle.appendChild(framecanopy);
 
         divtitlecounter2.src = project[i].counter;
+        divtitlecounter2.className = "canopyimage";
         framecanopy.appendChild(divtitlecounter2);
         divtitle.appendChild(framecanopy);
 
@@ -270,17 +272,26 @@ for (let i = 0; i < buttons.length; i++) {
         let divbottombutton1 = generateHtml('a', 'projectbutton');
         divbottombutton1.type = "button";
         divbottombutton1.href = project[i].livelink[0];
-        addTextAppend(divbottombutton1, project[i].livelink[1], frameLanguage);
+        let image1 = new Image();
+        image1.src = project[i].livelink[2];        
+        addTextAppend(divbottombutton1, project[i].livelink[1], divbutton);
+        divbottombutton1.appendChild(image1);
+        frameLanguage.appendChild(divbutton);
         divbottom.appendChild(frameLanguage);
 
         let divbottombutton2 = generateHtml('a', 'projectbutton');
         divbottombutton2.type = "button";
         divbottombutton2.href = project[i].sourcelink[0];
-        addTextAppend(divbottombutton2, project[i].sourcelink[1], frameLanguage)
+        let image2 = new Image();
+        image2.src = project[i].sourcelink[2];
+        addTextAppend(divbottombutton2, project[i].sourcelink[1], divbutton);
+        divbottombutton2.appendChild(image2);
+        frameLanguage.appendChild(divbutton);
         divbottom.appendChild(frameLanguage);
 
-        let c = document.querySelector('.portfolio1-cancel');
+        let c = document.querySelector('.portfolio1cancel');
         c.addEventListener('click', () => {
+            header.classList.remove('blur');
             portfoliopopup.style.display = 'none';
             portfolio.style.display = 'grid';
             popupdiv.remove();
@@ -289,5 +300,4 @@ for (let i = 0; i < buttons.length; i++) {
     });
 
 }
-
 }
