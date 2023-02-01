@@ -221,6 +221,7 @@ function fetchPortfolio(){
             divtitle.appendChild(frametitle);
 
             divtitlecancel.src = project[i].cancel;
+            divtitlecancel.className = "portfolio1-cancel";
             frametitle.appendChild(divtitlecancel);
             divtitle.appendChild(frametitle);
 
@@ -311,11 +312,24 @@ function fetchPortfolio(){
 
 
     
-
+            let c = document.querySelector('.portfolio1-cancel');
+            c.addEventListener('click',()=>{
+                portfoliopopup.style.display = 'none';
+            });
 
 
         });
+
+        
     }
+
+
+
+    
+    
+
+   
+
 
     // projectbutton.addEventListener('click', function () {
     //     alert("fdkv");
@@ -338,5 +352,4 @@ function fetchPortfolio(){
 
     // });
 }
-
 
