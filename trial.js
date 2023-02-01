@@ -313,9 +313,11 @@ function fetchPortfolio(){
 
     
             let c = document.querySelector('.portfolio1-cancel');
-            c.addEventListener('click',()=>{
+            c.addEventListener('click', () => {
                 portfoliopopup.style.display = 'none';
+                popupdiv.remove();
             });
+
 
 
         });
