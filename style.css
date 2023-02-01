@@ -210,8 +210,15 @@ body {
       filter: blur(4.5px);
     }
 
+        .div-button{
+display: flex;
+      gap: 4%;
+        }
     .projectbutton{
-      display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 4px;
+      align-content: center;
   width: 142px;
   height: 40px;
   border: 1px solid var(--navy);
@@ -220,6 +227,8 @@ body {
     font-weight: 500;
       font-size: 15px;
       line-height: 20px;
+      text-decoration: none;
+    gap: 15px;
     }
 
     .popup-div{
@@ -233,29 +242,55 @@ body {
     .popup-image{
       width: 100%;
     }
-
+    .div-title{
+padding-right: 4%;
+      padding-left: 4%;
+    }
+    .div-top{
+padding-right: 4%;
+  padding-left: 4%;
+    }
     .div-bottom{
       display: flex;
+      padding-right: 4%;
+        padding-left: 4%;
     }
     .frame-title{
       display: flex;
       justify-content: space-between;
     }
+    .portfolio1cancel{
+      height: 24px;
+      margin-top: 25px;
+    }
 
     .frame-canopy{
 display: flex;
     }
+
+    .canopyimage{
+      margin-top: 25px;
+      margin-right: 10px;
+      margin-left: 10px;
+      height: 8px;
+    }
     .frame-language{
       display: flex;
       flex-direction: column;
+      margin-right: 4%;
     }
 .popup-description{
   width: 60%;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
 }
 .bottom-list{
   display: flex;
   justify-content: space-around;
   padding-left: 0px;
+  gap:4%;
 }
 
   .con {
@@ -1394,6 +1429,111 @@ display: flex;
     padding-left: 6%;
     padding-right: 6%;
   }
+
+
+ .portfolio-popup {
+   display: none;
+   position: absolute;
+   justify-content: center;
+   top: 0;
+   width: 100%;
+ }
+
+ .blur {
+   filter: blur(4.5px);
+ }
+
+ .div-button {
+   display: flex;
+      gap: 4%;
+ }
+
+ .projectbutton {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 4px;
+   align-content: center;
+   width: 142px;
+   height: 40px;
+   border: 1px solid var(--navy);
+   border-radius: 8px;
+   color: #396DF2;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+   text-decoration: none;
+    gap: 15px;
+ }
+
+ .popup-div {
+   width: 80%;
+   background: #FFFFFF;
+   border: 1px solid #EBECF0;
+   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+   border-radius: 16px;
+ }
+
+ .popup-image {
+   width: 100%;
+ }
+
+ .div-title {
+   padding-right: 4%;
+   padding-left: 4%;
+ }
+
+ .div-top {
+   padding-right: 4%;
+   padding-left: 4%;
+ }
+
+ .div-bottom {
+   display: flex;
+   flex-direction: column;
+   padding-right: 4%;
+   padding-left: 4%;
+ }
+
+ .frame-title {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .portfolio1cancel {
+   height: 24px;
+   margin-top: 25px;
+ }
+
+ .frame-canopy {
+   display: flex;
+ }
+
+ .canopyimage {
+   margin-top: 16px;
+   margin-right: 10px;
+   margin-left: 10px;
+   height: 8px;
+ }
+
+ .frame-language {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4%;
+ }
+
+ .popup-description {
+   width: 100%;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24px;
+   color: #344563;
+ }
+
+ .bottom-list {
+   display: flex;
+   padding-left: 0px;
+   gap: 4%;
+ }
 
   .con1 {
     box-sizing: border-box;
@@ -2562,6 +2702,110 @@ display: flex;
     background-color: var(--body-background-colour);
   }
 
+    .portfolio-popup {
+      display: none;
+      position: absolute;
+      justify-content: center;
+      top: 0;
+      width: 375px;
+      margin-left: 20px;
+    }
+  
+    .blur {
+      filter: blur(4.5px);
+    }
+    .div-button {
+      display: flex;
+      gap:4%;
+    }
+
+
+    .projectbutton {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 4px;
+      align-content: center;
+      width: 142px;
+      height: 40px;
+      border: 1px solid var(--navy);
+      border-radius: 8px;
+      color: #396DF2;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      text-decoration: none;
+      gap: 15px;
+    }
+  
+    .popup-div {
+      width: 80%;
+      background: #FFFFFF;
+      border: 1px solid #EBECF0;
+      box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+      border-radius: 16px;
+    }
+  
+    .popup-image {
+      width: 100%;
+    }
+  
+    .div-title {
+      padding-right: 4%;
+      padding-left: 4%;
+    }
+  
+    .div-top {
+      padding-right: 4%;
+      padding-left: 4%;
+    }
+  
+    .div-bottom {
+      display: flex;
+      flex-direction: column;
+      padding-right: 4%;
+      padding-left: 4%;
+    }
+  
+    .frame-title {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .portfolio1cancel {
+      height: 24px;
+      margin-top: 25px;
+    }
+  
+    .frame-canopy {
+      display: flex;
+    }
+  
+    .canopyimage {
+      margin-top: 16px;
+      margin-right: 10px;
+      margin-left: 10px;
+      height: 8px;
+    }
+  
+    .frame-language {
+      display: flex;
+      flex-direction: column;
+      margin-right: 4%;
+    }
+  
+    .popup-description {
+      width: 100%;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #344563;
+    }
+  
+    .bottom-list {
+      display: flex;
+      padding-left: 0px;
+      gap: 4%;
+    }
   .con {
     border: 2px solid black;
     display: flex;

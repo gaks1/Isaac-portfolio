@@ -64,6 +64,7 @@ const project = [{
 
 }
 ]
+const header = document.querySelector('.text-section');
 const portfolio = document.querySelector('.works');
 const portfoliopopup = document.querySelector('.portfolio-popup');
 const section = document.querySelectorAll("section");
@@ -179,6 +180,7 @@ for (let i = 0; i < buttons.length; i++) {
         let popupdiv = generateHtml('div', 'popup-div');
 
         let divtitle = document.createElement('div');
+            divtitle.className = "div-title";
         let divtop = document.createElement('div');
 
         let divbottom = generateHtml('div', 'div-bottom');
