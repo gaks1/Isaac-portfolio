@@ -310,26 +310,5 @@ function fetchPortfolio(){
 
         
     }
-
-    // projectbutton.addEventListener('click', function () {
-    //     alert("fdkv");
-    //     portfolio.style.display = 'none';
-    //     portfoliopopup.style.display = 'block';
-
-    //     let popupdiv = document.createElement('div');
-    //     let divtop = document.createElement('div');
-    //     let divbottom = document.createElement('div');
-    //     let popupimage = new Image();
-
-    //     portfolio.appendChild(popupdiv);
-    //     popupdiv.appendChild(divtop);
-    //     popupdiv.appendChild(divbottom);
-    //     divtop.appendChild(popupimage);
-    //     popupimage.src = project[i].imagesource;
-    //     popupimage.alt = project[i].altmessage;
-
-
-
-    // });
 }
 
