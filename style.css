@@ -29,16 +29,21 @@ body {
 
 }
 
-.error {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  width: 41%;  
-}
 
 @media screen and (min-width: 769px) {
+  .button-error {
+      display: flex;
+        flex-direction: column;
+    }
+  .error {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+      width: 452px;
+    }
+
   .ul {
     list-style: none;
     padding-left: 0;
@@ -1220,35 +1225,19 @@ display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 16px;
-
-    /* Neutrals/N0 */
-
     background: var(--white);
     border-radius: 8px;
-
-    /* Button /Normal */
-
-    
-    
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* identical to box height, or 141% */
-
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-
     color: var(--navy);
     border-color: var(--white);
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
+    width: 142px;
   }
 
   input::placeholder {
@@ -1291,6 +1280,18 @@ display: flex;
 }
 
 @media only screen and (max-width: 768px) {
+  .button-error{
+display: flex;
+  flex-direction: column;;
+  }
+  .error {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+      width: 327px;
+    }
   .ul {
     list-style: none;
   }
@@ -2482,6 +2483,7 @@ display: flex;
     flex: none;
     order: 0;
     flex-grow: 0;
+    width: 110px;
   }
 
   input::placeholder {
@@ -2560,6 +2562,19 @@ display: flex;
 }
 
 @media only screen and (max-width: 375px) {
+  .button-error {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .error {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+      width: 327px;
+    }
   .ul {
     list-style: none;
     padding-left: 30px;
@@ -3776,7 +3791,7 @@ display: flex;
     background-position: right;
     position: absolute;
     width: 375px;
-    height: 779px;
+    height: 840px;
     left: 0;
     top: 4834px;
 
@@ -3927,6 +3942,7 @@ display: flex;
     flex: none;
     order: 0;
     flex-grow: 0;
+    width: 142px;
   }
 
   input::placeholder {
