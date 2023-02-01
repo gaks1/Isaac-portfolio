@@ -28,8 +28,6 @@ for (let i = 0; i < mobileLinKItem.length; i += 1) {
 }
 
 
-
-
 const project = [{
   name: "Tonic",
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
@@ -344,7 +342,7 @@ function fetchPortfolio() {
 
 
 const form = document.querySelector(".contact-form");
-const EMAIL_INVALID = "Please enter the email address in small letters. The form is not sent.";
+const EMAIL_INVALID = "Note: Please enter the email address in small letters. The form is not sent.";
 
 function showMessage(message, type) {
 
@@ -360,3 +358,27 @@ function showError(message) {
 function showSuccess() {
   return showMessage("", true);
 }
+
+function validateEmail(input, invalidMsg) {
+  const emailRegex = /^[a-z]+@[a-z]+\.[a-z]+$/;
+  const email = input.value;
+  if (!emailRegex.test(email)) {
+    
+    return showError(invalidMsg);
+  }else{
+   
+    return showSuccess();
+  }
+  
+}
+
+form.addEventListener("submit", function (event) {
+  
+  event.preventDefault();
+
+  let emailValid = validateEmail(form.elements["useremail"], EMAIL_INVALID);
+  
+  if (emailValid) {
+    form.submit();
+  }
+});

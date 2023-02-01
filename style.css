@@ -29,6 +29,15 @@ body {
 
 }
 
+.error {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  width: 41%;  
+}
+
 @media screen and (min-width: 769px) {
   .ul {
     list-style: none;
@@ -1122,8 +1131,6 @@ display: flex;
   }
 
   .contact-par {
-    
-    
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
