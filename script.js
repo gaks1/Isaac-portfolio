@@ -341,3 +341,22 @@ function fetchPortfolio() {
 
   }
 }
+
+
+const form = document.querySelector(".contact-form");
+const EMAIL_INVALID = "Please enter the email address in small letters. The form is not sent.";
+
+function showMessage(message, type) {
+
+  const msg = document.querySelector(".error");
+  msg.innerText = message;
+  return type;
+}
+
+function showError(message) {
+  return showMessage(message, false);
+}
+
+function showSuccess() {
+  return showMessage("", true);
+}
