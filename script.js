@@ -328,3 +328,40 @@ window.addEventListener('load', () => {
     });
   }
 });
+
+const form = document.querySelector('.contact-form');
+const EMAIL_INVALID = 'Please enter the email address in lower case only.';
+
+function showMessage(message, type) {
+  const msg = document.querySelector('.error');
+  msg.innerText = message;
+  return type;
+}
+
+function showError(message) {
+  return showMessage(message, false);
+}
+
+function showSuccess() {
+  return showMessage('', true);
+}
+
+function validateEmail(input, invalidMsg) {
+  const emailRegex = /^[a-z]+@[a-z]+\.[a-z]+$/;
+  const email = input.value;
+  if (!emailRegex.test(email)) {
+    return showError(invalidMsg);
+  }
+
+  return showSuccess();
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const emailValid = validateEmail(form.elements.useremail, EMAIL_INVALID);
+
+  if (emailValid) {
+    form.submit();
+  }
+});
