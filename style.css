@@ -195,7 +195,7 @@ body {
     display: none;
     position: absolute;
     justify-content: center;
-    top: 40px;
+    top: 24px;
     width: 100%;
   }
 
@@ -1366,7 +1366,7 @@ body {
     display: none;
     position: absolute;
     justify-content: center;
-    top: 40px;
+    top: 24px;
     width: 100%;
   }
 
@@ -2568,7 +2568,7 @@ body {
     display: none;
     position: absolute;
     justify-content: center;
-    top: 40px;
+    top: 24px;
     width: 375px;
     margin-left: 20px;
   }
