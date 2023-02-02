@@ -68,6 +68,8 @@ A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) desc
 - **[Desktopversion]**-> Made a desktop version of the website.
 - **[Mobile menu]**-> Added a mobile menu to the hamburger icon.
 - **[Portfolio popup menu]**-> Added a pop up  to the portfolio section.
+- **[Form validation]**-> made a validation function for the form.
+
 
 
 
@@ -152,7 +154,7 @@ Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
 
 
 
-- **[Form validation]**-> Validate contact form.
+- **[local storage]**-> Allow for local storage in the browser.
 
 
 

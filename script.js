@@ -27,7 +27,6 @@ for (let i = 0; i < mobileLinKItem.length; i += 1) {
   mobileLinKItem[i].addEventListener('click', sectionHide);
 }
 
-
 const project = [{
   name: 'Tonic',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -327,17 +326,14 @@ window.addEventListener('load', () => {
         popupdiv.remove();
       });
     });
-
   }
 });
 
-
-const form = document.querySelector(".contact-form");
-const EMAIL_INVALID = "Please enter the email address in lower case only.";
+const form = document.querySelector('.contact-form');
+const EMAIL_INVALID = 'Please enter the email address in lower case only.';
 
 function showMessage(message, type) {
-
-  const msg = document.querySelector(".error");
+  const msg = document.querySelector('.error');
   msg.innerText = message;
   return type;
 }
@@ -347,28 +343,24 @@ function showError(message) {
 }
 
 function showSuccess() {
-  return showMessage("", true);
+  return showMessage('', true);
 }
 
 function validateEmail(input, invalidMsg) {
   const emailRegex = /^[a-z]+@[a-z]+\.[a-z]+$/;
   const email = input.value;
   if (!emailRegex.test(email)) {
-    
     return showError(invalidMsg);
-  }else{
-   
-    return showSuccess();
   }
-  
+
+  return showSuccess();
 }
 
-form.addEventListener("submit", function (event) {
-  
+form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  let emailValid = validateEmail(form.elements["useremail"], EMAIL_INVALID);
-  
+  const emailValid = validateEmail(form.elements.useremail, EMAIL_INVALID);
+
   if (emailValid) {
     form.submit();
   }

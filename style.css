@@ -32,20 +32,20 @@ body {
   flex-grow: 0;
 }
 
-
 @media screen and (min-width: 769px) {
   .button-error {
-      display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+  }
+
   .error {
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #ebebff;
-      width: 452px;
-    }
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    width: 452px;
+  }
 
   .ul {
     list-style: none;
@@ -1239,18 +1239,20 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .button-error{
-display: flex;
-  flex-direction: column;;
+  .button-error {
+    display: flex;
+    flex-direction: column;
   }
+
   .error {
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #ebebff;
-      width: 327px;
-    }
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    width: 327px;
+  }
+
   .ul {
     list-style: none;
   }
@@ -2452,18 +2454,19 @@ display: flex;
 
 @media only screen and (max-width: 375px) {
   .button-error {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .error {
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #ebebff;
-      width: 327px;
-    }
+    display: flex;
+    flex-direction: column;
+  }
+
+  .error {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    width: 327px;
+  }
+
   .ul {
     list-style: none;
     padding-left: 30px;
