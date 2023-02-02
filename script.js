@@ -6,7 +6,7 @@ const mobileLinKItem = document.querySelectorAll('.mobile-link-item');
 
 function sectionFunc() {
   for (let i = 0; i < sections.length; i += 1) {
-    sections[i].classList.remove('blur');
+    sections[i].classList.add('blur');
   }
 
   menuContainer.style.display = 'block';
