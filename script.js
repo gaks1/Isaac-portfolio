@@ -93,6 +93,7 @@ const project = [{
 ];
 const header = document.querySelector('.text-section');
 const about = document.querySelector('.about');
+const navb = document.querySelector('.nav');
 const contact = document.querySelector('.contact');
 const portfolio = document.querySelector('.works');
 const portfoliopopup = document.querySelector('.portfolio-popup');
@@ -199,6 +200,7 @@ window.addEventListener('load', () => {
   for (let i = 0; i < buttons.length; i += 1) {
     buttons[i].addEventListener('click', () => {
       header.classList.add('blur');
+      navb.style.display ="none";
       about.style.display = 'none';
       contact.style.display = 'none';
       portfolio.style.display = 'none';
@@ -316,6 +318,7 @@ window.addEventListener('load', () => {
       const c = document.querySelector('.portfolio1cancel');
       c.addEventListener('click', () => {
         header.classList.remove('blur');
+        navb.style.display = 'block';
         about.style.display = 'flex';
         contact.style.display = 'flex';
         portfoliopopup.style.display = 'none';
