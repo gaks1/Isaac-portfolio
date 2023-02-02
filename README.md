@@ -67,6 +67,8 @@ A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) desc
 - **[Contacts]**-> A form to contact me.
 - **[Desktopversion]**-> Made a desktop version of the website.
 - **[Mobile menu]**-> Added a mobile menu to the hamburger icon.
+- **[Portfolio popup menu]**-> Added a pop up  to the portfolio section.
+
 
 
 
@@ -150,7 +152,7 @@ Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
 
 
 
-- **[Pop up]**-> Pop up section for the portfolio.
+- **[Form validation]**-> Validate contact form.
 
 
 
