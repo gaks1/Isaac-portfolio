@@ -200,7 +200,7 @@ window.addEventListener('load', () => {
   for (let i = 0; i < buttons.length; i += 1) {
     buttons[i].addEventListener('click', () => {
       header.classList.add('blur');
-      navb.style.display ="none";
+      navb.style.display = 'none';
       about.style.display = 'none';
       contact.style.display = 'none';
       portfolio.style.display = 'none';
