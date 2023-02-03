@@ -369,17 +369,8 @@ form.addEventListener('submit', (event) => {
 const name1 = form.querySelector('.name');
 const email = form.querySelector('.email');
 const feedback = form.querySelector('.feedback');
-let userdata = {};
-let stringifydata = "";
-
-
-
-
-if (!localStorage.getItem('storeddata')) {
-  populateStorage();
-} else {
-  setValue();
-}
+const userdata = {};
+let stringifydata = '';
 
 function setValue() {
   const currentstoreddata = localStorage.getItem('storeddata');
@@ -396,6 +387,12 @@ function populateStorage() {
   userdata.feedback = form.querySelector('.feedback').value;
   stringifydata = JSON.stringify(userdata);
   localStorage.setItem('storeddata', stringifydata);
+  setValue();
+}
+
+if (!localStorage.getItem('storeddata')) {
+  populateStorage();
+} else {
   setValue();
 }
 
