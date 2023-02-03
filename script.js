@@ -365,3 +365,37 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const name1 = form.querySelector('.name');
+const email = form.querySelector('.email');
+const feedback = form.querySelector('.feedback');
+const userdata = {};
+let stringifydata = '';
+
+function setValue() {
+  const currentstoreddata = localStorage.getItem('storeddata');
+  const currentuserdata = JSON.parse(currentstoreddata);
+
+  form.querySelector('.name').value = currentuserdata.name;
+  form.querySelector('.email').value = currentuserdata.email;
+  form.querySelector('.feedback').value = currentuserdata.feedback;
+}
+
+function populateStorage() {
+  userdata.name = form.querySelector('.name').value;
+  userdata.email = form.querySelector('.email').value;
+  userdata.feedback = form.querySelector('.feedback').value;
+  stringifydata = JSON.stringify(userdata);
+  localStorage.setItem('storeddata', stringifydata);
+  setValue();
+}
+
+if (!localStorage.getItem('storeddata')) {
+  populateStorage();
+} else {
+  setValue();
+}
+
+name1.onkeyup = populateStorage;
+email.onkeyup = populateStorage;
+feedback.onkeyup = populateStorage;

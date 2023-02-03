@@ -69,8 +69,7 @@ A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) desc
 - **[Mobile menu]**-> Added a mobile menu to the hamburger icon.
 - **[Portfolio popup menu]**-> Added a pop up  to the portfolio section.
 - **[Form validation]**-> made a validation function for the form.
-
-
+- **[Local Storage]**-> allow for local storage in the browser.
 
 
 
@@ -154,7 +153,7 @@ Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
 
 
 
-- **[local storage]**-> Allow for local storage in the browser.
+- **[Bug fix]**-> Fix bugs.
 
 
 
