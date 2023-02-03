@@ -365,3 +365,24 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const name1 = form.querySelector('.name');
+const email = form.querySelector('.email');
+const feedback = form.querySelector('.feedback');
+let userdata = {};
+let stringifydata = "";
+
+
+
+
+if (!localStorage.getItem('storeddata')) {
+  populateStorage();
+} else {
+  setStyles();
+}
+
+
+
+name1.onchange = populateStorage;
+email.onchange = populateStorage;
+feedback.onchange = populateStorage;
