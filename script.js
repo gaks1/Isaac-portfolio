@@ -378,11 +378,27 @@ let stringifydata = "";
 if (!localStorage.getItem('storeddata')) {
   populateStorage();
 } else {
-  setStyles();
+  setValue();
 }
 
+function setValue() {
+  const currentstoreddata = localStorage.getItem('storeddata');
+  const currentuserdata = JSON.parse(currentstoreddata);
 
+  form.querySelector('.name').value = currentuserdata.name;
+  form.querySelector('.email').value = currentuserdata.email;
+  form.querySelector('.feedback').value = currentuserdata.feedback;
+}
 
-name1.onchange = populateStorage;
-email.onchange = populateStorage;
-feedback.onchange = populateStorage;
+function populateStorage() {
+  userdata.name = form.querySelector('.name').value;
+  userdata.email = form.querySelector('.email').value;
+  userdata.feedback = form.querySelector('.feedback').value;
+  stringifydata = JSON.stringify(userdata);
+  localStorage.setItem('storeddata', stringifydata);
+  setValue();
+}
+
+name1.onkeyup = populateStorage;
+email.onkeyup = populateStorage;
+feedback.onkeyup = populateStorage;
