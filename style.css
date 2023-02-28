@@ -199,8 +199,8 @@ body {
     gap: 142px;
     padding-top: 142px;
     padding-bottom: 142px;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
     align-items: center;
     background-color: var(--body-background-colour);
   }
@@ -385,7 +385,7 @@ body {
 
   .snapshot > img {
     width: 100%;
-    height: 100%;
+    height: 500px;
     transition: all 2s;
   }
 
@@ -511,7 +511,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 12px;
+    gap: 10px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -552,7 +552,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 8px 0;
-    width: 75px;
     height: 40px;
     flex: none;
     order: 0;
@@ -568,7 +567,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 8px 0;
-    width: 120px;
     height: 40px;
     flex: none;
     order: 2;
@@ -584,7 +582,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 8px 0;
-    width: 38px;
     height: 40px;
     flex: none;
     order: 4;
@@ -1387,8 +1384,8 @@ body {
     padding-top: 114px;
     padding-bottom: 114px;
     background-color: var(--body-background-colour);
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
   .portfolio-popup {

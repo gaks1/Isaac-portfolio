@@ -28,15 +28,15 @@ for (let i = 0; i < mobileLinKItem.length; i += 1) {
 }
 
 const project = [{
-  name: 'Tonic',
-  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  longdescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  imagesource: 'img/beigebg.png',
+  name: 'Travel Website',
+  description: 'A website that shows details of a travel conference',
+  longdescription: 'The website will provide a comprehensive platform for attendees to access information on the upcoming travel conference. Some of the information that will be available on the website includes details about the event, keynote speakers, breakout sessions, networking opportunities, and more. In addition, the website will offer a variety of resources to help attendees prepare for the conference, such as travel tips, accommodation suggestions, and recommended activities to do in the host city. By providing a one-stop-shop for all conference-related information, the website aims to make the experience for attendees as smooth and enjoyable as possible.',
+  imagesource: 'img/capston-travel.png',
   altmessage: 'project1',
   technologies: ['html', 'css', 'javascript'],
-  projectsummary: ['CANOPY', 'Back end dev', '2015'],
-  livelink: ['#', 'See live', 'img/seelive.png'],
-  sourcelink: ['#', 'See Source', 'img/seesource.png'],
+  projectsummary: ['Microverse', 'Front-End-Dev', '2023'],
+  livelink: ['https://gaks1.github.io/capstone-project1/', 'See live', 'img/seelive.png'],
+  sourcelink: ['https://github.com/gaks1/capstone-project1', 'See Source', 'img/seesource.png'],
   buttontext: 'See Project',
   uniqueid: '0',
   counter: 'img/Counter.png',
