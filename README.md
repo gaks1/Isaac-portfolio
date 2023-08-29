@@ -21,15 +21,10 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
 
 
 
@@ -38,7 +33,7 @@
 
 
 **[Portfolio website]** is a website that shows my skills in web development. It has links to my projects, resume and social media.<br>
-A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) description of my project.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -48,8 +43,8 @@ A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) desc
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.quackit.com/html/codes/html_code_library.cfm">Html</a></li>
-    <li><a href="https://www.w3docs.com/course/css-the-complete-guide-2020-incl-flexbox-grid-sass">css</a></li>
+    <li>React</li>
+    <li>css</li>
   </ul>
 </details>
 
@@ -68,8 +63,6 @@ A [loom video](https://www.loom.com/share/818e4b9451e240b29157082df20925e8) desc
 - **[Desktopversion]**-> Made a desktop version of the website.
 - **[Mobile menu]**-> Added a mobile menu to the hamburger icon.
 - **[Portfolio popup menu]**-> Added a pop up  to the portfolio section.
-- **[Form validation]**-> made a validation function for the form.
-- **[Local Storage]**-> allow for local storage in the browser.
 
 
 
@@ -95,40 +88,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:gaks1/Isaac-portfolio.git
+git clone https://github.com/gaks1/Isaac-portfolio.git
 
 ### Install
 
-Install this project with:
-http server:
-
-npm install http-server -g
-http-server
-
-
-
-To run the project, execute the following command:
-
-http-server public
-
-
-
-### Run tests
-
-To run tests, go to:
-
-1. htmltester--> https://wave.webaim.org/
-2. csstester-->https://jigsaw.w3.org/css-validator/
-
-
-### Deployment
-
-You can deploy this project using:
-
-github pages.
-
-Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
- 
+npm install
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,20 +110,6 @@ Deployed [project](https://gaks1.github.io/Isaac-portfolio/) for view.
 -  LinkedIn: [LinkedIn](https://www.linkedin.com/in/isaac-wanyoike-1841a8172/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-
-- **[Bug fix]**-> Fix bugs.
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -185,12 +135,5 @@ If you like this project star my work
 
 
 I would like to thank Microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](MIT.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
